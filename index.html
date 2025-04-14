@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triptown</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="home-header">
+        <!-- <div class="logo">
+            <a href="#"><img src="images/logo2.png" alt="Triptown"></a>
+            
+        </div> -->
+        <nav class="nav-menu">
+            <div class="logo">
+                <a href="#"><img src="/themes/images/logo2.png" alt="Triptown"></a>
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#aboutus">About</a>
+                <a href="#categories">Services</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </nav>
+        
+        <div class="cover-content">
+            <h1>Welcome to TripTown – Your Ultimate Travel Guide!</h1>
+            <p>Discover the best travel destinations with TripTown! Explore places by season and theme.</p>
+            <a href="#categories" class="cover-btn">Explore Now</a>
+        </div>
+    </header>
+    
+
+    <main>
+        <section id="categories" class="trips"> <!-- Added id for the section -->
+            <h2>Categories</h2>
+            <div class="trip-grid">
+                <div class="trip-item">
+                    <a href="/themes/summer.html"><img src="/themes/images/summer.jpg" alt="summer"></a>
+                    <h3> Summer Escapes</h3>
+                    <p>Beat the heat with refreshing beaches, serene hill stations, and cool mountain retreats.</p>
+                </div>
+                <div class="trip-item">
+                    <a href="/themes/winter.html"><img src="/themes/images/winter.jpg" alt="winter"></a>
+                    <h3>Winter Retreats</h3>
+                    <p> Experience snowy landscapes, cozy cabins, and thrilling winter sports.</p>
+                </div>
+                <div class="trip-item">
+                    <a href="/themes/monsoon.html"><img src="/themes/images/monsoon2.jpg" alt="monsoon"></a>
+                    <h3> Monsoon Getaways</h3>
+                    <p> Explore misty hill stations, lush green valleys, and mesmerizing waterfalls.</p>
+                </div>
+                <div class="trip-item">
+                    <a href="/themes/Adventure.html"><img src="/themes/images/adventuretrips.avif" alt="Adventures"></a>
+                    <h3>Adventure Trips</h3>
+                    <p>Indulge in thrilling activities like trekking, rafting, paragliding, and rock climbing.</p>
+                </div>
+                <div class="trip-item">
+                    <a href="/themes/hillstation.html"><img src="/themes/images/realhill.jpg" alt="hillstation"></a>
+                    <h3>Hill Stations</h3>
+                    <p>Discover breathtaking mountain towns with scenic views and fresh air.</p>
+                </div>
+                <div class="trip-item">
+                    <a href="/themes/Beaches.html"><img src="/themes/images/beach.jpg" alt="beaches"></a>
+                    <h3>Beaches & Islands</h3>
+                    <p>Relax on pristine shores, enjoy water sports, and explore tropical paradises.</p>
+                </div>
+                <div class="trip-item">
+                    <a href="/themes/desert.html"><img src="/themes/images/desert.jpg" alt="desert"></a>
+                    <h3>Desert Adventures</h3>
+                    <p>Witness golden dunes, cultural heritage, and magical desert nights.</p>
+                </div>
+                <div class="trip-item">
+                    <a href="/themes/heritage.html"><img src="/themes/images/heritages.webp" alt="monsoon"></a>
+                    <h3>Heritage & Culture</h3>
+                    <p> Step into history with ancient monuments, forts, and cultural wonders.</p>
+                </div>
+                
+                <div class="trip-item">
+                    <a href="/themes/camp.html"><img src="/themes/images/camp.jpg" alt="Camping"></a>
+                    <h3>Camping & Offbeat Stays</h3>
+                    <p>Escape into nature with unique stays in forests, mountains, and remote locations.</p>
+                </div>
+
+            </div>
+        </section>
+        <section id="aboutus">
+            <div class="aboutimg">
+                <img src="/themes/images/about.jpg" alt="">
+            </div>
+            <div class="about">
+                <h2 style="padding: 10px;">About Us</h2>
+                <p>Our company, TripTown, is dedicated to making travel planning seamless by categorizing destinations based on seasons and themes. We help travelers find the perfect getaway, whether it’s a summer retreat, winter escape, monsoon adventure, or a scenic hill station. With expert-curated guides and travel insights, we ensure every journey is memorable. Explore with TripTown and discover the world, one destination at a time!</p>
+            </div>
+            
+            
+        </section>
+    </main>
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or would you like to book a trip, contact us.</p>
+        <div class="location_main">
+            <div class="call_text"><img src="/themes/images/call-icon.png"></div>
+            <div class="call_text"><a href="#">Call +01 1234567890</a></div>
+            <br>
+            <div class="call_text"><img src="/themes/images/mail-icon.png"></div>
+            <div class="call_text"><a href="mailto:xyz@gmail.com">xyz@gmail.com</a></div>
+         </div>
+
+        <div class="social_icon">
+            <ul>
+               <li><a href="https://www.facebook.com/" target="_blank"><img src="/themes/images/fb-icon.png"></a></li>
+               <li><a href="https://x.com/" target="_blank"><img src="/themes/images/twitter-icon.png"></a></li>
+               <li><a href="https://www.instagram.com/" target="_blank"><img src="/themes/images/instagram-icon.png"></a></li>
+            </ul>
+         </div>
+      </div>
+     </div>
+
+    </section>
+        <div class="copyright_section">
+            <div class="container">
+            <p class="copyright_text">Copyright © 2025 Triptown. All rights reserved.</p>
+            </div>
+        </div>
+    <!-- Smooth Scroll Script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault(); // Prevent default anchor behavior
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth' // Smooth scroll
+                });
+            });
+        });
+    </script>
+    <!-- Add this script inside your <body> tag -->
+<script>
+    let lastScrollTop = 0; 
+    const navMenu = document.querySelector('.nav-menu'); 
+
+    window.addEventListener('scroll', function() {
+        let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+        // Check if the user is scrolling down
+        if (currentScroll > lastScrollTop) {
+            // Scrolling down: hide the navbar
+            navMenu.style.top = "-60px"; // Adjust value to match your navbar height
+        } else {
+            // Scrolling up: show the navbar
+            navMenu.style.top = "0";
+        }
+        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Ensure it doesn't go negative
+    });
+</script>
+<script>
+    let lastScrollTop = 0;
+const navMenu = document.querySelector('.nav-menu');
+
+window.addEventListener('scroll', function () {
+    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentScroll > lastScrollTop) {
+        // Hide navbar when scrolling down
+        navMenu.style.top = "-60px"; 
+    } else {
+        // Show navbar when scrolling up
+        navMenu.style.top = "0";
+    }
+    
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; 
+});
+
+</script>
+
+</body>
+</html>
