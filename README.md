@@ -21,7 +21,7 @@ Triptown is a smart travel planning web app that categorizes tourist destination
 
 ## 🌐 Live Demo
 
-👉 [Visit Triptown](https://triptowm.netlify.app.com)
+👉 [Visit Triptown](https://triptown.netlify.app/)
 
 ## 🧠 Inspiration
 
