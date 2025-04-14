@@ -30,11 +30,21 @@ Planning trips can be overwhelming—especially when you don't know where to go 
 ## 📁 Folder Structure (If applicable)
 
 ```bash
-triptown/
+TRIPTOWN/
+├── .vscode/
+├── output_images/
+├── themes/
+│   ├── images/
+│   ├── Adventure.html
+│   ├── Beaches.html
+│   ├── camp.html
+│   ├── desert.html
+│   ├── heritage.html
+│   ├── hillstation.html
+│   ├── item.css
+│   ├── monsoon.html
+│   ├── summer.html
+│   └──winter.html
 ├── index.html
-├── style.css
-├── script.js
-├── assets/
-│   └── images/
-└── data/
-    └── destinations.json
+└── style.css
+
