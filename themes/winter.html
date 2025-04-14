@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destinations</title>
+    <link rel="stylesheet" href="item.css">
+</head>
+<body style="background-image: url('images/winter.jpg');">
+    <header>
+        <div class="header-container">
+            <a href="#"><img src="images/logo2.png" alt="Triptown" class="logo"></a>
+            <nav class="nav-menu">
+                <ul id="menu-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#aboutus">About</a></li>
+                    <li><a href="../index.html#categories">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </div>
+    </header>
+    
+    <div class="title">Winter Trips</div>
+
+    <div class="container">
+        <div class="card">
+            <a href="https://youtu.be/nkwLjnragtw?si=H64JY2wtDhjTGYHN" target="_blank">
+                <img src="images/manalii.jpg" alt="manali">
+            </a>
+            <div class="content">
+                <h2>Manali <span class="rating">⭐ 4.5</span></h2>
+                <span class="state">Himachal Pradesh</span>
+                <p>A snowy retreat with adventure activities like paragliding and trekking.</p>
+                <p class="best-time">📍 Best time: November to February</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/uBs5j3FGmkk?si=W5sbsfrl4-UaZAgL" target="_blank">
+                <img src="images\auli.webp" alt="auli">
+            </a>
+            <div class="content">
+                <h2>Auli <span class="rating">⭐ 4.6</span></h2>
+                <span class="state">Uttarakhand</span>
+                <p>A premier skiing destination with breathtaking Himalayan views.</p>
+                <p class="best-time">📍 Best time: December to March</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/hFh0l7rn-LU?si=Hnbh40GdN1UPi87f" target="_blank">
+                <img src="images\lehladhak.webp" alt="lehladhak">
+            </a>
+            <div class="content">
+                <h2>Leh-Ladhak <span class="rating">⭐ 4.5</span></h2>
+                <span class="state">Jammu & Kashmir</span>
+                <p>A high-altitude adventure hub with frozen lakes and monasteries.</p>
+                <p class="best-time">📍 Best time: January to February</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/NX92Bre60MI?si=M8B5XdjzjmaNaGP6" target="_blank">
+                <img src="images\shimla.jpg" alt="shimla">
+            </a>
+            <div class="content">
+                <h2>Shimla <span class="rating">⭐ 4.5</span></h2>
+                <span class="state">Himachal Pradesh</span>
+                <p>A serene retreat with sprawling tea plantations, misty hills, and refreshing waterfalls.</p>
+                <p class="best-time">📍 Best time: March to May</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/UmhbcBClFm8?si=R6THaWzBT7Qo7Bat" target="_blank">
+                <img src="images\gulmarg.webp" alt="Gulmarg">
+            </a>
+            <div class="content">
+                <h2>Gulmarg <span class="rating">⭐ 4.9</span></h2>
+                <span class="state">Ladakh (UT)</span>
+                <p>A winter wonderland famous for skiing and snowboarding.</p>
+                <p class="best-time">📍 Best time: December to February</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/T-kulebBnxg?si=vZ1agZdNtTKzoA31" target="_blank">
+                <img src="images\RANNutsav.jpg" alt="Rann of Kutch">
+            </a>
+            <div class="content">
+                <h2>Rann of Kutch <span class="rating">⭐ 4.6</span></h2>
+                <span class="state">Gujarat</span>
+                <p>A surreal white desert experience during the vibrant Rann Utsav.</p>
+                <p class="best-time">📍 Best time: November to February</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or would you like to book a trip, contact us.</p>
+        <div class="location_main">
+            <div class="call_text"><img src="images/call-icon.png" alt="Call Icon"></div>
+            <div class="call_text"><a href="#">Call +01 1234567890</a></div>
+            <br>
+            <div class="call_text"><img src="images/mail-icon.png" alt="Mail Icon"></div>
+            <div class="call_text"><a href="mailto:xyz@gmail.com">xyz@gmail.com</a></div>
+        </div>
+    
+        <div class="social_icon">
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="images/fb-icon.png"></a></li>
+               <li><a href="https://x.com/" target="_blank"><img src="images/twitter-icon.png"></a></li>
+               <li><a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin-icon.png"></a></li>
+               <li><a href="https://www.instagram.com/" target="_blank"><img src="images/instagram-icon.png"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="copyright_section">
+        <p>Copyright © 2025 Triptown. All rights reserved.</p>
+    </div>
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu-list").classList.toggle("show");
+        }
+    </script>
+</body>
+</html>

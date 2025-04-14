@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desert Adventures</title>
+    <link rel="stylesheet" href="item.css">
+</head>
+<body style="background-image: url('images/desert.jpg');">
+    <header>
+        <div class="header-container">
+            <a href="index.html"><img src="images/logo2.png" alt="Triptown" class="logo"></a>
+            <nav class="nav-menu">
+                <ul id="menu-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#aboutus">About</a></li>
+                    <li><a href="../index.html#categories">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </div>
+    </header>
+    
+    
+    <div class="title">Desert Adventures Trips</div>
+
+    <div class="container">
+        <div class="card">
+            <a href="https://youtu.be/vFapg7KmvKw?si=N_taou-W_doxafr5" target="_blank">
+                <img src="images/Jaisalmer.avif" alt="Jaisalmer">
+            </a>
+            <div class="content">
+                <h2>Jaisalmer <span class="rating">⭐ 4.8</span></h2>
+                <span class="state">Rajasthan </span>
+                <p>Experience thrilling desert safaris, camel rides, and the stunning golden dunes of the Thar Desert.</p>
+                <p class="best-time">📍 Best time: October to March</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/unHSeTcegrI?si=DfYzDFTtaU3E4y5x" target="_blank">
+                <img src="images/Hunder.jpg" alt="hunder">
+            </a>
+            <div class="content">
+                <h2>Hunder <span class="rating">⭐ 4.7</span></h2>
+                <span class="state">Ladakh</span>
+                <p>Famous for its unique double-humped Bactrian camels and vast cold desert landscape.</p>
+                <p class="best-time">📍 Best time: May to September</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/o4f0eEsATmk?si=thC4XfDVG5LFBQee" target="_blank">
+                <img src="images/Khimsar.jpg" alt="Khimsar">
+            </a>
+            <div class="content">
+                <h2>Khimsar <span class="rating">⭐ 4.6</span></h2>
+                <span class="state">Rajasthan </span>
+                <p>A hidden desert retreat with sand dunes, fort resorts, and offbeat experiences.</p>
+                <p class="best-time">📍 Best time: October to March</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/Ithf0-JUBpA?si=3i_4rpKhMzxkNCFO" target="_blank">
+                <img src="images/Pushkar.jpg" alt="pushkar">
+            </a>
+            <div class="content">
+                <h2>Pushkar <span class="rating">⭐ 4.5</span></h2>
+                <span class="state">Rajasthan </span>
+                <p>Home to the famous camel fair, hot air balloon rides, and a stunning desert ambiance.</p>
+                <p class="best-time">📍 Best time: October to March(especially during Pushkar Camel Fair in November)</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/Ks67dt8Ub98?si=B97-qSWPzDOCU3rE" target="_blank">
+                <img src="images/Rann of Kutch.jpg" alt="Manali">
+            </a>
+            <div class="content">
+                <h2>Rann of Kutch <span class="rating">⭐ 4.9</span></h2>
+                <span class="state">Gujarat</span>
+                <p>Witness the surreal white salt desert and enjoy the vibrant Rann Utsav festival.</p>
+                <p class="best-time">📍 Best time: October to March(Best during Rann Utsav from November to February)</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/_3zjMTRdSsc?si=mrQhmcY7TtRPBpNy" target="_blank">
+                <img src="images/Bikaner.jpeg" alt="Ooty">
+            </a>
+            <div class="content">
+                <h2>Bikaner <span class="rating">⭐ 4.6</span></h2>
+                <span class="state">Rajasthan</span>
+                <p>Known for its vast desert landscape, camel festivals, and historical forts.</p>
+                <p class="best-time">📍 Best time: October to March</p>
+            </div>
+        </div>
+    </div>
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or would you like to book a trip, contact us.</p>
+        <div class="location_main">
+            <div class="call_text"><img src="images/call-icon.png" alt="Call Icon"></div>
+            <div class="call_text"><a href="#">Call +01 1234567890</a></div>
+            <br>
+            <div class="call_text"><img src="images/mail-icon.png" alt="Mail Icon"></div>
+            <div class="call_text"><a href="mailto:xyz@gmail.com">xyz@gmail.com</a></div>
+        </div>
+    
+        <div class="social_icon">
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="images/fb-icon.png"></a></li>
+               <li><a href="https://x.com/" target="_blank"><img src="images/twitter-icon.png"></a></li>
+               <li><a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin-icon.png"></a></li>
+               <li><a href="https://www.instagram.com/" target="_blank"><img src="images/instagram-icon.png"></a></li>
+            </ul>
+        </div>
+    </section>
+    <div class="copyright_section">
+        <p>Copyright © 2025 Triptown. All rights reserved.</p>
+    </div>
+    
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu-list").classList.toggle("show");
+        }
+    </script>
+    
+</body>
+</html>

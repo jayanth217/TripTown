@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventurous Destinations</title>
+    <link rel="stylesheet" href="item.css">
+</head>
+<body style="background-image: url('images/adventuretrips.avif');">
+    <header>
+        <div class="header-container">
+            <a href="#"><img src="images/logo2.png" alt="Triptown" class="logo"></a>
+            <nav class="nav-menu">
+                <ul id="menu-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#aboutus">About</a></li>
+                    <li><a href="../index.html#categories">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </div>
+    </header>
+    
+    <div class="title">Adventurous Trips</div>
+
+    <div class="container">
+        <div class="card">
+            <a href="https://youtu.be/sxGDwcyO9JY?si=oHu1lENmSpUA253_" target="_blank">
+                <img src="images\rafting.webp" alt="Rishikesh">
+            </a>
+            <div class="content">
+                <h2>Rishikesh <span class="rating">⭐ 4.7</span></h2>
+                <span class="state">Uttarakhand </span>
+                <p>Famous for white-water rafting, bungee jumping, and camping along the Ganges.</p>
+                <p class="best-time">📍 Best time: September to March</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/DVyXCF3bMIs?si=UAgL_o6UCLFn-57_" target="_blank">
+                <img src="images\bir.webp" alt="Bir Billing">
+            </a>
+            <div class="content">
+                <h2>Bir Billing <span class="rating">⭐ 4.6</span></h2>
+                <span class="state">Himachal Pradesh</span>
+                <p>One of the best places in India for paragliding.</p>
+                <p class="best-time">📍 Best time: March to June</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/nAb8E6FQTjc?si=_JYqtIzi5TJjPIHA" target="_blank">
+                <img src="images\aulisnow.jpeg" alt="Auli">
+            </a>
+            <div class="content">
+                <h2>Auli <span class="rating">⭐ 4.6</span></h2>
+                <span class="state">Uttarakhand</span>
+                <p>A prime destination for snow sports, including snow skating, with stunning Himalayan views.</p>
+                <p class="best-time">📍 Best time: December to March</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/pkbwkyC_qA0?si=f3VlRQMxjxRxgBrm" target="_blank">
+                <img src="images\tirthan2.jpeg" alt="Tirthan Valley">
+            </a>
+            <div class="content">
+                <h2>Tirthan Valley<span class="rating">⭐ 4.4</span></h2>
+                <span class="state">Himachal Pradesh </span>
+                <p>Known for trekking, fishing, and exploring the Great Himalayan National Park.</p>
+                <p class="best-time">📍 Best time: March to June</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/pR9Qx3Rt2Ds?si=Vc0cI7HQRt1mJrzY" target="_blank">
+                <img src="images\spitivalley.jpg" alt="Spiti Valley">
+            </a>
+            <div class="content">
+                <h2>Spiti Valley <span class="rating">⭐ 4.6</span></h2>
+                <span class="state">Himachal Pradesh</span>
+                <p>A high-altitude region perfect for trekking and off-road biking.</p>
+                <p class="best-time">📍 Best time: May to September</p>
+            </div>
+        </div>
+       
+        <div class="card">
+            <a href="https://youtu.be/9UDHNXULCMs?si=ABlmuMPyfD9-TrMy" target="_blank">
+                <img src="images\kangravalley.jpeg" alt="Kangra Valley">
+            </a>
+            <div class="content">
+                <h2>Kangra Valley <span class="rating">⭐ 4.3</span></h2>
+                <span class="state">Himachal Pradesh</span>
+                <p>Known for its challenging rock climbing routes and stunning views.</p>
+                <p class="best-time">📍 Best time: March to June</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or would you like to book a trip, contact us.</p>
+        <div class="location_main">
+            <div class="call_text"><img src="images/call-icon.png" alt="Call Icon"></div>
+            <div class="call_text"><a href="#">Call +01 1234567890</a></div>
+            <br>
+            <div class="call_text"><img src="images/mail-icon.png" alt="Mail Icon"></div>
+            <div class="call_text"><a href="mailto:xyz@gmail.com">xyz@gmail.com</a></div>
+        </div>
+    
+        <div class="social_icon">
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="images/fb-icon.png"></a></li>
+               <li><a href="https://x.com/" target="_blank"><img src="images/twitter-icon.png"></a></li>
+               <li><a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin-icon.png"></a></li>
+               <li><a href="https://www.instagram.com/" target="_blank"><img src="images/instagram-icon.png"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="copyright_section">
+        <p>Copyright © 2025 Triptown. All rights reserved.</p>
+    </div>
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu-list").classList.toggle("show");
+        }
+    </script>
+</body>
+</html>

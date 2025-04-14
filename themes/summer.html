@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destinations</title>
+    <link rel="stylesheet" href="item.css">
+</head>
+<body style="background-image: url('images/summer.jpg');">
+    <header>
+        <div class="header-container">
+            <a href="index.html"><img src="images/logo2.png" alt="Triptown" class="logo"></a>
+            <nav class="nav-menu">
+                <ul id="menu-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#aboutus">About</a></li>
+                    <li><a href="../index.html#categories">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </div>
+    </header>
+    
+    
+    <div class="title">Summer Trips</div>
+
+    <div class="container">
+        <div class="card">
+            <a href="https://youtu.be/vUDx64AgSNU?si=GN3QXjpuUn2pTX8e" target="_blank">
+                <img src="images\munnar.webp" alt="Munnar">
+            </a>
+            <div class="content">
+                <h2>Munnar <span class="rating">⭐ 4.8</span></h2>
+                <span class="state">Kerala</span>
+                <p>A serene retreat with sprawling tea plantations, misty hills, and refreshing waterfalls.</p>
+                <p class="best-time">📍 Best time: March to May</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/hFh0l7rn-LU?si=GIxr5S_VpzQ2zN-D" target="_blank">
+                <img src="images\ladhak.webp" alt="Ladakh">
+            </a>
+            <div class="content">
+                <h2>Ladakh <span class="rating">⭐ 4.9</span></h2>
+                <span class="state">Ladakh (UT)</span>
+                <p>A high-altitude desert with breathtaking landscapes, monasteries, and adventure trails.</p>
+                <p class="best-time">📍 Best time: May to June</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/NX92Bre60MI?si=M8B5XdjzjmaNaGP6" target="_blank">
+                <img src="images\shimla.jpg" alt="Shimla">
+            </a>
+            <div class="content">
+                <h2>Shimla <span class="rating">⭐ 4.6</span></h2>
+                <span class="state">Himachal Pradesh</span>
+                <p>Queen of Hills, featuring colonial architecture and stunning mountain views.</p>
+                <p class="best-time">📍 Best time: March to June</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/x3sIRL-weh4?si=rru_u8lIQ-t8PxSN" target="_blank">
+                <img src="images/goa.webp" alt="Goa">
+            </a>
+            <div class="content">
+                <h2>Goa <span class="rating">⭐ 4.7</span></h2>
+                <span class="state">Goa</span>
+                <p>Paradise for beach lovers with golden sands and vibrant nightlife.</p>
+                <p class="best-time">📍 Best time: March to May</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/nkwLjnragtw?si=H64JY2wtDhjTGYHN" target="_blank">
+                <img src="images/manalii.jpg" alt="Manali">
+            </a>
+            <div class="content">
+                <h2>Manali <span class="rating">⭐ 4.5</span></h2>
+                <span class="state">Himachal Pradesh</span>
+                <p>A paradise for nature lovers, trekkers, and adventure seekers.</p>
+                <p class="best-time">📍 Best time: March to June</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="https://youtu.be/-jwnly4NOq0?si=fmU-iANQxyYAPVyI" target="_blank">
+                <img src="images\ooty.webp" alt="Ooty">
+            </a>
+            <div class="content">
+                <h2>Ooty <span class="rating">⭐ 4.6</span></h2>
+                <span class="state">Tamil Nadu</span>
+                <p>A perfect summer escape with rolling tea gardens, toy trains, and cool breezes.</p>
+                <p class="best-time">📍 Best time: March to June</p>
+            </div>
+        </div>
+    </div>
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or would you like to book a trip, contact us.</p>
+        <div class="location_main">
+            <div class="call_text"><img src="images/call-icon.png" alt="Call Icon"></div>
+            <div class="call_text"><a href="#">Call +01 1234567890</a></div>
+            <br>
+            <div class="call_text"><img src="images/mail-icon.png" alt="Mail Icon"></div>
+            <div class="call_text"><a href="mailto:xyz@gmail.com">xyz@gmail.com</a></div>
+        </div>
+    
+        <div class="social_icon">
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="images/fb-icon.png"></a></li>
+               <li><a href="https://x.com/" target="_blank"><img src="images/twitter-icon.png"></a></li>
+               <li><a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin-icon.png"></a></li>
+               <li><a href="https://www.instagram.com/" target="_blank"><img src="images/instagram-icon.png"></a></li>
+            </ul>
+        </div>
+    </section>
+    <div class="copyright_section">
+        <p>Copyright © 2025 Triptown. All rights reserved.</p>
+    </div>
+    
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu-list").classList.toggle("show");
+        }
+    </script>
+    
+</body>
+</html>
